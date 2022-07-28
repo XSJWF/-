@@ -1,0 +1,39 @@
+.td8 {
+	BACKGROUND-COLOR: #f1fbf1;
+	BORDER-BOTTOM: #a1a1a1 1pt solid
+}
+BODY {
+	COLOR: #000000;
+	font-family: "Times New Roman", Times, serif;
+	FONT-SIZE: 9pt
+}
+TD {
+	font-family: "Times New Roman", Times, serif;
+	FONT-SIZE: 14pt;
+	LINE-HEIGHT: 15pt;
+	vertical-align: center;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+A:link {
+	COLOR: white;
+	TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: white;
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #5b2222;
+	TEXT-DECORATION: underline
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+TABLE{
+	text-align: center;
+	vertical-align: center;
+}

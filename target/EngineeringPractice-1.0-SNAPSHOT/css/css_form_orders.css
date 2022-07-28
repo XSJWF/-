@@ -1,0 +1,162 @@
+body{
+    background: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+
+#register_01_div {
+    position:absolute;
+    top:120px;
+    width:1520px;
+    height:371px;
+    background-color: #1ABC9CFF;
+    opacity: 0.5;
+}
+
+#register_02_div {
+    position:absolute;
+    left:500px;
+    top:0;
+    width:564px;
+    height:712px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;color: #8a8a8a;
+    background-color: rgb(215, 215, 215);
+}
+
+#register_03_div {
+    position:absolute;
+    left:500px;
+    top:10px;
+    width:564px;
+    height:50px;
+    background-color:rgba(26, 188, 156, 1);
+}
+
+#dingdan{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+}
+
+#shouhuoren_label{
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+
+#shouhuoren{
+    position: relative;
+    height: 30px;
+    width: 160px;
+    border-radius: 8px;
+}
+
+#sex_label{
+    position: absolute;
+    left: 48px;
+    top:160px;
+}
+
+#sex{
+    position: relative;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+#youbian_label{
+    position: absolute;
+    left: 48px;
+    top:220px;
+}
+
+#youbian{
+    position: relative;
+    height: 30px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+#tel_label{
+    position: absolute;
+    left: 48px;
+    top:280px;
+}
+
+#tel{
+    position: relative;
+    width: 160px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#dizhi_label{
+    position: absolute;
+    left: 48px;
+    top:340px;
+}
+
+#dizhi{
+    position: relative;
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+#leaveword_label{
+    position: absolute;
+    left: 48px;
+    top:400px;
+}
+
+#leaveword{
+    position: relative;
+    height: 30px;
+    width: 380px;
+    border-radius: 8px;
+}
+
+#total{
+    position: absolute;
+    right: 40px;
+    width: 150px;
+    bottom: 200px;
+}
+
+#totalText{
+    position: relative;
+    font-size: 18px;
+}
+
+#totalValue{
+    position: absolute;
+    left: 60px;
+    top: -2px;
+    font-size: 20px;
+}
+
+#dingdan_submit{
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+    width: 100px;
+    height: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#dingdan_submit:hover{
+    color: #c03232;
+    cursor: pointer;
+}
+
+#dingdan_submit:active{
+    color: #c77474;
+    opacity: 0.5;
+}
+

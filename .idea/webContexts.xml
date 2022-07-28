@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/HTML" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/HTML/login.html" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/Manage/Left_menu.html" value="file://$PROJECT_DIR$/src/main/webapp/Manage" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/Manage/show.html" value="file://$PROJECT_DIR$/src/main/webapp/Manage" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/background_commodity/commodity_detail.html" value="file://$PROJECT_DIR$/src/main/webapp/background_commodity" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/background_commodity/shop_list.html" value="file://$PROJECT_DIR$/src/main/webapp/background_commodity" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/background_person/user_show.html" value="file://$PROJECT_DIR$/src/main/webapp/background_person" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/front/Mall homepage.html" value="file://$PROJECT_DIR$/src/main/webapp/front" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/front/mainpage/shangpin_list.html" value="file://$PROJECT_DIR$/src/main/webapp/front/mainpage" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/front/shangpin_detail.html" value="file://$PROJECT_DIR$/src/main/webapp/front" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/jsp/orders_detail.jsp" value="file://$PROJECT_DIR$/src/main/webapp/jsp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" value="file://$PROJECT_DIR$/src/main/webapp/jsp" />
+      </map>
+    </option>
+  </component>
+</project>

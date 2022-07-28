@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<link rel="stylesheet" href="../css/css_register.css">
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" SRC="../js/js_register.js"></script>
+<body>
+<div id="register_01_div" class=""></div>
+<div id="register_02_div" class=""></div>
+<div id="register_03_div" class=""></div>
+<img id="register_img" class="img" src="../img/商标.svg" alt="图片加载失败"/>
+<div id="register_04">用户昵称：</div>
+<label for="register_04_username"></label><input name="username" id="register_04_username" type="text" value=""
+                                                 class="register_04_input" maxlength="10" placeholder="请 输 入 用 户 名">
+<div id="register_05">密码：</div>
+<label for="register_05_password"></label><input name="password" id="register_05_password" type="password" value=""
+                                                 class="register_05_input" maxlength="15" placeholder="请 输 入 密 码">
+<div id="register_06">电话：</div>
+<label for="register_06_telephone"></label><input name="telephone" id="register_06_telephone" type="tel" value=""
+                                                  class="register_06_input" maxlength="20" placeholder="请 输 入 电 话 号 码">
+<div id="register_07">Email：</div>
+<label for="register_07_email"></label><input name="email" id="register_07_email" type="email" value=""
+                                              class="register_07_input" maxlength="20" placeholder="请 输 入 电 子 邮 箱">
+<div id="register_08">密保问题：</div>
+<label for="register_08_security"></label>
+<select name="security" id="register_08_security" class="register_08_input">
+    <option id="1" value="我爸爸是谁">我爸爸是谁</option>
+    <option id="2" value="我妈妈是谁">我妈妈是谁</option>
+    <option id="3" value="我的生日">我的生日</option>
+</select>
+<div id="register_09">密保答案：</div>
+<label for="register_09_s-answer"></label><input name="s-answer" id="register_09_s-answer" type="text" value=""
+                                                 class="register_09_input" placeholder="请 输 入 密 保 问 题 的 答 案">
+<div id="register_10">确认密码：</div>
+<label for="register_10_c-password"></label><input name="c-password" id="register_10_c-password" type="password"
+                                                   value="" class="register_10_input" placeholder="请 确 认 密 码">
+<button id="register_submit" name="register" class="register_submit">注册</button>
+<a id="register_login" href="login.html">已有账号？马上登录</a>
+</body>
+</html>

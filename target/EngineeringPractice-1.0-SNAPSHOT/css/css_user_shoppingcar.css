@@ -1,0 +1,411 @@
+body{
+    background-image: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#page_nav{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#page_nav a{
+    text-decoration: none;
+}
+
+#page_nav a:hover{
+    color: #c03232;
+}
+
+#shoppingcar_02_div {
+    position:absolute;
+    left:60px;
+    top:80px;
+    width:1400px;
+    min-height:713px;
+    background-color: #bff3e8;
+    height: auto;
+    opacity: 0.9;
+}
+#shoppingcar_03_div{
+    position:absolute;
+    left:60px;
+    top:0;
+    width:1400px;
+    height:80px;
+    background-color: #1ABC9CFF;
+}
+
+#shoppingcar_03_messagelistImg{
+    position:relative;
+    left:10px;
+    top:10px;
+    width:110px;
+    height:55px;
+}
+
+#shoppingcar_03_messagelist{
+    position:relative;
+    left:100px;
+    top:-40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+}
+
+#submit{
+    position: absolute;
+    right: 40px;
+    top: 22px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    background-color: #afaeae;
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: #c03232;
+}
+
+#submit:active{
+    color: #c77474;
+}
+
+#shoppingcar_message{
+    position:relative;
+    left:205px;
+    top:5px;
+    width: 990px;
+    min-height: 625px;
+    margin-bottom: 20px;
+    background-color: #8a8a8a;
+    height: auto;
+}
+
+#shoppingcar_message_nav{
+    position:relative;
+    left:5px;
+    top: 5px;
+    width: 980px;
+    height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    background-color: #9f9f9f;
+}
+
+#choseAll{
+    position: relative;
+    left: 10px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+#shoppingcar_message_shangpin{
+    position:absolute;
+    left:210px;
+    top:1px;
+}
+
+#shoppingcar_message_price{
+    position:absolute;
+    left:436px;
+    top:1px;
+}
+
+#shoppingcar_message_num{
+    position:absolute;
+    left:540px;
+    top:1px;
+}
+
+#shoppingcar_message_total{
+    position:absolute;
+    left:780px;
+    top:1px;
+}
+
+#shoppingcar_message_clear{
+    position:absolute;
+    left:890px;
+    top:3px;
+}
+
+.shoppingcar_message_box{
+    position: relative;
+    width: 40px;
+    height: 60px;
+}
+
+.goods{
+    width: 16px;
+    height: 16px;
+}
+
+.shoppingcar_message1{
+    position:relative;
+    left:5px;
+    top:10px;
+    width: 980px;
+    height: 75px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message1_shangpin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:40px;
+    height: 65px;
+    width: 375px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message1_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:430px;
+    width: 90px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message1_num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:535px;
+    width: 80px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message1_change{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:630px;
+    width: 120px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message1_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:765px;
+    width: 110px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message1_delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 888px;
+    width: 80px;
+    height: 65px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+
+.shoppingcar_message1_delete:hover{
+    cursor: pointer;
+    color: #de1f1f;
+}
+
+.shoppingcar_message1_delete:active{
+    color: #c77474;
+}
+
+.shoppingcar_message2{
+    position:relative;
+    left:5px;
+    top:10px;
+    width: 980px;
+    height: 75px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.shoppingcar_message2_shangpin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:40px;
+    height: 65px;
+    width: 375px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message2_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:430px;
+    width: 90px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message2_num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:535px;
+    width: 80px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message2_change{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:630px;
+    width: 120px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message2_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:765px;
+    width: 110px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+.shoppingcar_message2_delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 888px;
+    width: 80px;
+    height: 65px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f9f9f;
+}
+
+
+.shoppingcar_message2_delete:hover{
+    cursor: pointer;
+    color: #de1f1f;
+}
+
+.shoppingcar_message2_delete:active{
+    color: #c77474;
+}
+span:hover{
+    color: #de1f1f;
+    cursor: pointer;
+}
+
+span:active{
+    color: #c77474;
+}
+
+.change_background{
+    position: relative;
+    height: 68px;
+    width: 82px;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+}
+
+.change_num{
+    position: relative;
+    top: 5px;
+    left: 0;
+    width: 63px;
+    height: 30px;
+    text-align: center;
+    background-color: #8a8a8a;
+    border-radius: 12px;
+}
+
+.change_confirm{
+    position: absolute;
+    top:40px;
+    left:7px;
+    width: 70px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.change_confirm:hover{
+    cursor: pointer;
+    color: #de1f1f;
+}
+
+.change_confirm:active{
+    color: #c77474;
+}
+
+

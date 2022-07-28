@@ -1,0 +1,132 @@
+<html lang="en">
+<HEAD>
+    <meta charset="UTF-8">
+    <TITLE>menu</TITLE>
+</HEAD>
+<link rel="stylesheet" href="../../css/Left_menu.css" type="text/css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    let classCount = 5; // 菜单大类的个数
+    function Show(theId) {
+        let theTr = "tr_"+theId;
+        theTr = document.getElementById(theTr);
+        if (theTr.style.display === "none") {
+            theTr.style.display = "block";
+        }
+        else {
+            theTr.style.display = "none";
+        }
+        for (let i = 0; i < classCount; i++) {
+            if (i === theId)
+                continue;
+            theTr = "tr_" + i;
+            theTr = document.getElementById(theTr);
+            theTr.style.display = "none";
+        }
+    }
+</script>
+<BODY link="#333333" vlink="#333333" alink="#FF0000" bgColor="#1fa5a2">
+<TABLE class="guide guideText" width="100%">
+    <TR>
+        <TD  id="td_0" width="100%" bgColor="#1f65c2" >
+            <A  href="javascript:Show(0)">商品管理</A>
+        </TD>
+    </TR>
+    <TR id=tr_0 style="DISPLAY: none;cursor:hand">
+        <TD  width="100%" bgColor="#4c84ce" height="50">
+            <TABLE border="0" width="100%">
+                <tr>
+                    <TD width="220">
+                        <A href="../background_commodity/commodity_list.html" target="right_workspace">商品信息</A>
+                    </TD>
+                <tr>
+                <tr>
+                    <TD width="220">
+                        <A href="../background_commodity/commodity_category_list.html" target="right_workspace">商品类别</A>
+                    </TD>
+                <tr>
+            </TABLE>
+        </TD>
+    </TR>
+    <TR>
+        <TD  id="td_1" width="100%" bgColor="#1f65c2" >
+            <A  href="javascript:Show(1)">用户管理</A>
+        </TD>
+    </TR>
+    <TR id=tr_1 style="DISPLAY: none;cursor:hand">
+        <TD  width="100%" bgColor="#4c84ce" height="50">
+            <TABLE border="0" width="100%">
+                <tr>
+                    <TD width="220" >
+                        <A href="../background_person/person_user_list.html" target="right_workspace">用户信息</A>
+                    </TD>
+                <tr>
+                <tr>
+                    <TD width="220">
+                        <A href="../background_person/person_admin_detail.html" target="right_workspace">管理员信息</A>
+                    </TD>
+                <tr>
+            </TABLE>
+        </TD>
+    </TR>
+    <TR>
+        <TD  id="td_2" width="100%" bgColor="#1f65c2" >
+            <A  href="javascript:Show(2)">订单管理</A>
+        </TD>
+    </TR>
+    <TR id=tr_2 style="DISPLAY: none;cursor:hand">
+        <TD  width="100%" bgColor="#4c84ce" height="50">
+            <TABLE border="0" width="100%">
+                <tr>
+                    <TD width="220">
+                        <A href="../background_orders/background_orders_list.html" target="right_workspace">订单信息</A>
+                    </TD>
+                <tr>
+            </TABLE>
+        </TD>
+    </TR>
+    <TR>
+        <TD  id="td_3" width="100%" bgColor="#1f65c2" >
+            <A  href="javascript:Show(3)">信息管理</A>
+        </TD>
+    </TR>
+    <TR id=tr_3 style="DISPLAY: none;cursor:hand">
+        <TD  width="100%" bgColor="#4c84ce" height="50">
+            <TABLE border="0" width="100%">
+                <tr>
+                    <TD width="220">
+                        <A href="../background_information/user_leaveword_list.html" target="right_workspace">用户留言管理</A>
+                    </TD>
+                <tr>
+                <tr>
+                    <TD width="220">
+                        <A href="../background_information/commodity_comment_list.html" target="right_workspace">评论管理</A>
+                    </TD>
+                <tr>
+                <tr>
+                    <TD width="220">
+                        <A href="../background_information/notice_list.html" target="right_workspace">公告管理</A>
+                    </TD>
+                <tr>
+            </TABLE>
+        </TD>
+    </TR>
+    <TR>
+        <TD  id="td_4" width="100%" bgColor="#1f65c2" >
+            <A  href="javascript:Show(4)">图片面板管理</A>
+        </TD>
+    </TR>
+    <TR id=tr_4 style="DISPLAY: none;cursor:hand">
+        <TD  width="100%" bgColor="#4c84ce" height="50">
+            <TABLE border="0" width="100%">
+                <tr>
+                    <TD width="220">
+                        <A href="../background_picture/picture_list.html" target="right_workspace">广告管理</A>
+                    </TD>
+                <tr>
+            </TABLE>
+        </TD>
+    </TR>
+</TABLE>
+</BODY>
+</html>

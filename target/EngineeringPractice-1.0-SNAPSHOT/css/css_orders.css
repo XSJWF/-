@@ -1,0 +1,366 @@
+body{
+    background-image: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#orders_01_div {
+    position:absolute;
+    top:120px;
+    width:1520px;
+    height:371px;
+    background-color: #1ABC9CFF;
+    opacity: 0.5;
+}
+#orders_02_div {
+    position:absolute;
+    left:300px;
+    top:50px;
+    width:1000px;
+    min-height:663px;
+    background-color: #bff3e8;
+    height: auto;
+}
+#orders_03_div{
+    position:absolute;
+    left:300px;
+    top:0;
+    width:1000px;
+    height:50px;
+    background-color: #1ABC9CFF;
+}
+#orders_details{
+    position: absolute;
+    left: 480px;
+    top: 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#orders_people{
+    position: absolute;
+    left:850px;
+    top: 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#orders_price{
+    position: absolute;
+    left: 1050px;
+    top: 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#orders_state{
+    position: absolute;
+    left: 1180px;
+    top: 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.orders_01{
+    position: relative;
+    left: 5px;
+    width: 990px;
+    height: 100px;
+    background-color: #d9d9d9;
+}
+.orders_01_nav{
+    position: relative;
+    left: 2px;
+    width: 990px;
+    height: 30px;
+    background-color: #a1c5c2;
+}
+.orders_01_nav_time{
+    position: relative;
+    font-size: 18px;
+    top: 5px;
+    left: 10px;
+    height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.orders_01_nav_number{
+    position: absolute;
+    font-size: 18px;
+    top: 5px;
+    left: 250px;
+    height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.orders_01_nav_numberValue{
+    text-decoration: none;
+    color: #111111;
+}
+
+.orders_01_nav_numberValue:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.orders_01_leaveword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 10px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #a1c5c2;
+}
+
+.orders_01_connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 240px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    text-decoration: none;
+    background-color: #a1c5c2;
+}
+
+.orders_01_person{
+    width: 40px;
+    height: 20px;
+}
+
+.orders_01_people{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 470px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #111111;
+    background-color: #a1c5c2;
+}
+
+.orders_01_people>span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.orders_01_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 690px;
+    top: 35px;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    background-color: #a1c5c2;
+}
+
+.orders_01_priceValue{
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+
+.orders_01_priceWay{
+    position: relative;
+    left: -34px;
+    top: 15px;
+}
+
+.orders_01_state{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 870px;
+    top: 35px;
+    width: 110px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    background-color: #a1c5c2;
+}
+
+.orders_02{
+    position: relative;
+    left: 5px;
+    width: 990px;
+    height: 100px;
+    background-color: #a1c5c2;
+}
+.orders_02_nav{
+    position: relative;
+    left: 2px;
+    width: 990px;
+    height: 30px;
+    background-color: #d9d9d9;
+}
+.orders_02_nav_time{
+    position: relative;
+    font-size: 18px;
+    top: 5px;
+    left: 10px;
+    height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.orders_02_nav_number{
+    position: absolute;
+    font-size: 18px;
+    top: 5px;
+    left: 250px;
+    height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.orders_02_nav_numberValue{
+    text-decoration: none;
+    color: #111111;
+}
+
+.orders_02_nav_numberValue:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.orders_02_leaveword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 10px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #d9d9d9;
+}
+
+.orders_02_connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 240px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    text-decoration: none;
+    background-color: #d9d9d9;
+}
+
+.orders_02_person{
+    width: 40px;
+    height: 20px;
+}
+
+.orders_02_people{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 470px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #111111;
+    background-color: #d9d9d9;
+}
+
+.orders_02_people>span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.orders_02_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 690px;
+    top: 35px;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    background-color: #d9d9d9;
+}
+
+.orders_02_priceValue{
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+
+.orders_02_priceWay{
+    position: relative;
+    left: -34px;
+    top: 15px;
+}
+
+.orders_02_state{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    white-space:normal;
+    left: 870px;
+    top: 35px;
+    width: 110px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    color: #808080;
+    background-color: #d9d9d9;
+}

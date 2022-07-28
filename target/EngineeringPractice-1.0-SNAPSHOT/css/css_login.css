@@ -1,0 +1,169 @@
+body{
+    background: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+#login_01_div {
+    position:absolute;
+    top:120px;
+    width:1520px;
+    height:371px;
+    background-color: #1ABC9CFF;
+    opacity: 0.5;
+}
+#login_02_div {
+    position:absolute;
+    left:600px;
+    top:70px;
+    width:400px;
+    height:500px;
+    background-color:rgba(255, 255, 255, 1);
+    color:#FFFFFF;
+}
+#login_03_div {
+    position:absolute;
+    left:600px;
+    top:80px;
+    width:400px;
+    height:31px;
+    background-color:rgba(26, 188, 156, 1);
+}
+#login_img {
+    border-width:0;
+    position:absolute;
+    left:720px;
+    top:120px;
+    width:180px;
+    height:100px;
+}
+#login_04{
+    position:absolute;
+    left:620px;
+    top:240px;
+    font-weight: bold;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+}
+#login_04_name {
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:680px;
+    top:240px;
+    width:250px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+#login_05{
+    position:absolute;
+    left:636px;
+    top:300px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+#login_05_password{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:680px;
+    top:300px;
+    width:250px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#login_submit {
+    left: 750px;
+    top: 420px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #17C3B2;
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    border-radius: 15px;
+}
+
+#login_submit::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#login_submit:hover::before {
+    width: 105%;
+}
+
+#login_submit:hover {
+    color: #111;
+    cursor: pointer;
+}
+#login_submit:active{
+    top: 421px;
+    opacity: 0.5;
+}
+
+#login_person{
+    position: absolute;
+    left: 757px;
+    top: 350px;
+}
+
+#login_person:hover{
+    cursor: pointer;
+    color: #1bd9a1;
+}
+
+#login_person:active{
+    opacity: 0.5;
+}
+
+#login_register{
+    position:absolute;
+    left:820px;
+    top:500px;
+    width:212px;
+    height:32px;
+    text-decoration:none ;
+    color: #1bd9a1;
+}
+
+#login_register:hover{
+    color: red;
+}
+
+#login_text{
+    position:absolute;
+    left:710px;
+    top:500px;
+    width:212px;
+    height:32px;
+    color:#000000FF;
+}

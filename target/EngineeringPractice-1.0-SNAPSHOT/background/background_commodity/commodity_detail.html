@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情页面</title>
+</head>
+<link rel="stylesheet" href="../../css/css_commodity_detail(add).css" type="text/css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../js/js_commodity_detail.js"></script>
+<body>
+<div class="left_div1"><img id="tupian1" src="" alt="图片加载失败！"></div>
+<label for="mingcheng" style="font-size: 18px;text-align: center;position: absolute; height: 30px;width: 100px;left: 70px;top: 305px;">商品名称：</label><input class="left_div2_1" id="mingcheng">
+<div style="font-size: 18px;text-align: center;position: absolute; height: 30px;width: 100px;left: 80px;top: 345px;border-radius: 10px">商品id：</div>
+<div class="left_div2_2" id="id"></div>
+<div>
+	<div style="position: absolute;font-size: 18px;height: 30px;width: 100px;left: 75px;top: 397px;">是否推荐：</div>
+	<label for="tuijian1" style="position: absolute;font-size: 18px;height: 30px;width: 30px;left: 210px;top: 397px;">是</label><input id="tuijian1" type="radio" name="tuijian" value="yes" style="position: absolute;height: 15px;width: 15px;left: 180px;top: 400px;">
+	<label for="tuijian2" style="position: absolute;font-size: 18px;height: 30px;width: 30px;left: 290px;top: 397px;">否</label><input id="tuijian2" type="radio" name="tuijian" value="no" style="position: absolute;height: 15px;width: 15px;left: 260px;top: 400px;">
+</div>
+<label for="tupian" style="position: absolute;font-size: 18px;height: 30px;width: 150px;left: 40px;top: 447px;">图片相对路径：</label><input type="text" id="tupian" style="position: absolute;font-size: 18px;height: 30px;width: 150px;left: 170px;top: 445px;border-radius: 10px">
+<div class="div">
+	<div class="div1">商品详情</div>
+	<div class="div2">
+		<div class="div2_1">基础信息</div>
+	</div>
+	<div class="div3">
+		<div class="div4_left">
+			<div class="div4_left_1">
+				<label for="addtime" class="type_label">&nbsp上市时间:&nbsp</label>
+				<input type="text" id="addtime" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<label for="shichangjia" class="type_label" style="position: absolute;left: 20px;height: 30px;border-radius: 10px">&nbsp市场价:&nbsp</label>
+				<input type="text" id="shichangjia" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<label for="cishu" class="type_label">&nbsp购买次数:&nbsp</label>
+				<input id="cishu" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<div class="type_label" style="position: absolute;left: 0;height: 30px;border-radius: 10px">&nbsp是否特价:&nbsp</div>
+				<label for="tejia1" style="position: absolute;top: 22px;left: 150px;">是</label><input id="tejia1" name="tejia" value="yes" type="radio" class="type" style="position: absolute;top: 25px;left: 120px;width: 15px;height: 15px">
+				<label for="tejia2" style="position: absolute;top: 22px;left: 250px;">否</label><input id="tejia2" name="tejia" value="no" type="radio" class="type" style="position: absolute;top: 25px;left: 220px;width: 15px;height: 15px">
+
+			</div>
+		</div>
+		<div class="div4_left">
+			<div class="div4_left_1">
+				<label for="pinpai" class="type_label">&nbsp商品品牌:&nbsp</label>
+				<input id="pinpai" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<label for="huiyuanjia" class="type_label" style="position: absolute;left: 20px;height: 30px;border-radius: 10px">&nbsp会员价:&nbsp</label>
+				<input id="huiyuanjia" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<label for="shuliang" class="type_label" >&nbsp商品数量:&nbsp</label>
+				<input id="shuliang" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>
+			<div class="div4_left_1">
+				<label for="xinghao" class="type_label" style="position: absolute;left: 0;height: 30px;border-radius: 10px">&nbsp商品型号:&nbsp</label>
+				<input id="xinghao" class="type" style="position: absolute;height: 30px;top: 16px;border-radius: 10px">
+			</div>		
+		</div>
+	</div>
+	<div class="div2">
+		<div class="div2_1">其他信息</div>
+	</div>
+	<div class="div4">
+		<div class="div4_left">
+			<div class="div4_left_2">
+				<label for="typeid" class="type_label2">&nbsp1级类别:&nbsp</label>
+				<input id="typeid" class="type_1" style="height: 30px;border-radius: 10px;">
+			</div>
+			<div class="div4_left_2">
+				<label for="type2id" class="type_label2">&nbsp2级类别:&nbsp</label>
+				<input id="type2id" class="type_1" style="height: 30px;border-radius: 10px;">
+			</div>
+			<div class="div4_left_2">
+				<label for="type3id" class="type_label2">&nbsp3级类别:&nbsp</label>
+				<input id="type3id" class="type_1" style="height: 30px;border-radius: 10px;">
+			</div>
+		</div>
+		<div class="div4_left">
+			<div class="div4_left_2">
+				<label for="dengji" class="type_label2">&nbsp商品等级:&nbsp</label>
+				<input id="dengji" class="type_1" style="height: 30px;border-radius: 10px;">
+			</div>
+			<div class="div4_left_3">
+				<label for="jianjie" class="type_label2">&nbsp商品简介:&nbsp</label>
+				<textarea id="jianjie" style="word-wrap:break-word;width: 250px;height:93px;border-radius: 10px;font-size: 18px"></textarea>
+			</div>
+		</div>
+	</div>
+</div>
+<button id="SaveChange">保存修改</button>
+</body>
+</html>

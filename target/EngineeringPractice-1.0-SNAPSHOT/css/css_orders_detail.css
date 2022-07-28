@@ -1,0 +1,275 @@
+body{
+    background: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+#orders_details_01_div {
+    position:absolute;
+    top:120px;
+    width:1520px;
+    height:371px;
+    background-color: #1ABC9CFF;
+    opacity: 0.5;
+}
+#orders_details_02_div {
+    position:absolute;
+    left:300px;
+    top:60px;
+    width:1000px;
+    height:500px;
+    background-color: #bff3e8;
+}
+#orders_details_03_div{
+    position:absolute;
+    left:300px;
+    top:60px;
+    width:1000px;
+    height:50px;
+    background-color: #1ABC9CFF;
+}
+
+#orders_details_04_ordersCenter{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: #808080;
+}
+
+#orders_details_04_ordersCenter:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#orders_details_04_ordersCenter_icon{
+    position: relative;
+    left: 115px;
+    top: -8px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: #808080;
+}
+
+#orders_details_04_self{
+    position: absolute;
+    left: 140px;
+    top: 15px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: #111111;
+}
+
+#orders_details_04_selfValue{
+    position: absolute;
+    left: 55px;
+    top: 0;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: #111111;
+}
+
+#orders_details{
+    position:absolute;
+    left:310px;
+    top:120px;
+    width:980px;
+    height:420px;
+    background-color: #ffffff;
+}
+
+#orders_details_sub{
+    position:relative;
+    left:10px;
+    top:10px;
+    width:250px;
+    height:380px;
+    background-color: #e3e3e3;
+}
+
+#orders_details_subNumber{
+    position:relative;
+    left:30px;
+    top:50px;
+    font-size: 14px;
+    color: #808080;
+}
+
+#orders_details_subValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:100px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: #808080;
+}
+
+#orders_details_subComment{
+    position:relative;
+    left:75px;
+    top:140px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: #ff0000;
+}
+
+#orders_details_subComment:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#orders_details_process{
+    position:absolute;
+    left:280px;
+    top:10px;
+    width:690px;
+    height:380px;
+    background-color: #e3e3e3;
+}
+
+#orders_details_process_thanks{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: #808080;
+}
+
+#orders_details_process_img1{
+    position: relative;
+    left: 0;
+    width: 100px;
+    height: 50px;
+    top: 132px;
+}
+
+#orders_details_process_describe1{
+    position: absolute;
+    left: 15px;
+    top: 190px;
+}
+
+#orders_details_process_time{
+    position: absolute;
+    left: 0;
+    top: 215px;
+    width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+#arrows_01{
+    position: relative;
+    left: 80px;
+    top: 90px;
+}
+
+#orders_details_process_img2{
+    position: relative;
+    left: 120px;
+    width: 120px;
+    height: 50px;
+    top: 58px;
+}
+
+#orders_details_process_describe2{
+    position: absolute;
+    left: 150px;
+    top: 190px;
+}
+
+#arrows_02{
+    position: relative;
+    left: 220px;
+    top: 20px;
+}
+
+#orders_details_process_img3{
+    position: relative;
+    left: 260px;
+    top: -15px;
+}
+
+#orders_details_process_img3value{
+    width: 120px;
+    height: 50px;
+}
+
+#orders_details_process_describe3{
+    position: absolute;
+    left: 290px;
+    top: 190px;
+}
+
+#arrows_03{
+    position: relative;
+    left: 360px;
+    width: 100px;
+    top: -50px;
+}
+
+#orders_details_process_img4{
+    position: relative;
+    left: 400px;
+    top: -90px;
+}
+
+#orders_details_process_img4value{
+    width: 120px;
+    height: 50px;
+}
+
+#orders_details_process_describe4{
+    position: absolute;
+    left: 430px;
+    top: 190px;
+}
+
+#arrows_04{
+    position: relative;
+    left: 500px;
+    width: 100px;
+    top: -120px;
+}
+
+#orders_details_process_img5{
+    position: relative;
+    left: 540px;
+    top: -155px;
+}
+
+#orders_details_process_img5value{
+    width: 120px;
+    height: 50px;
+}
+
+#orders_details_process_describe5{
+    position: absolute;
+    left: 585px;
+    top: 190px;
+}
+
+#orders_details_process_completeTime{
+    position: absolute;
+    left: 550px;
+    top: 210px;
+    width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}

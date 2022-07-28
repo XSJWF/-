@@ -1,0 +1,279 @@
+body{
+    background: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+
+#register_01_div {
+    position:absolute;
+    top:120px;
+    width:1520px;
+    height:371px;
+    background-color: #1ABC9CFF;
+    opacity: 0.5;
+}
+
+#register_02_div {
+    position:absolute;
+    left:500px;
+    top:0;
+    width:564px;
+    height:712px;
+    background-color:rgba(255, 255, 255, 1);
+    color:#FFFFFF;
+}
+
+#register_03_div {
+    position:absolute;
+    left:500px;
+    top:10px;
+    width:564px;
+    height:31px;
+    background-color:rgba(26, 188, 156, 1);
+}
+
+#register_img {
+    border-width:0;
+    position:absolute;
+    left:680px;
+    top:40px;
+    width:214px;
+    height:124px;
+}
+
+#register_04{
+    position:absolute;
+    left:522px;
+    top:160px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_04_username {
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:160px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_05{
+    position:absolute;
+    left:555px;
+    top:220px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_05_password{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:220px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_06{
+    position:absolute;
+    left:555px;
+    top:340px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_06_telephone{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:340px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_07{
+    position:absolute;
+    left:545px;
+    top:400px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_07_email{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:400px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_08{
+    position:absolute;
+    left:525px;
+    top:460px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_08_security{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:460px;
+    width:425px;
+    height:28px;
+    font-size: 16px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_09{
+    position:absolute;
+    left:525px;
+    top:520px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_09_s-answer{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:520px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_10{
+    position:absolute;
+    left:525px;
+    top:280px;
+    text-align:left;
+    font-weight: bold;
+    text-transform:none;
+    background-color:transparent;
+}
+
+#register_10_c-password{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000FF;
+    position:absolute;
+    left:600px;
+    top:280px;
+    width:420px;
+    height:22px;
+    text-align:left;
+    text-transform:none;
+    background-color:transparent;
+    border-radius: 12px;
+}
+
+#register_submit {
+    left: 730px;
+    top: 600px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #17C3B2;
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    border-radius: 15px;
+}
+
+#register_submit::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#register_submit:hover::before {
+    width: 105%;
+}
+
+#register_submit:hover {
+    color: #111;
+    cursor: pointer;
+}
+#register_submit:active{
+    top: 602px;
+    opacity: 0.5;
+}
+
+#register_login{
+    position:absolute;
+    left:900px;
+    top:660px;
+    width:212px;
+    height:32px;
+    text-decoration:none;
+    color: #1bd9a1;
+}
+
+#register_login:hover{
+    color: red;
+}

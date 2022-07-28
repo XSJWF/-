@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="214px" height="124px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 460.8 0  L 460.8 512  L 0 512  Z " fill-rule="evenodd" fill="black" id="path21" />
+    <clipPath id="clip22">
+      <use xlink:href="#path21" />
+    </clipPath>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter23">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="686px" y="158px" width="214px" height="124px" filterUnits="userSpaceOnUse" id="filter24">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget25">
+      <g transform="matrix(0.22265625 0 0 0.22265625 736.7 158 )" clip-path="url(#clip22)" filter="url(#filter23)">
+        <path d="M289.9 64.3h170.9v384l-170.9-384zm-119 0H0v384l170.9-384zm59.5 142.1l107.5 241.9h-73l-30.7-76.8h-78.7l74.9-165.1z" />
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -686 -158 )">
+    <use xlink:href="#widget25" filter="url(#filter24)" />
+    <use xlink:href="#widget25" />
+  </g>
+</svg>

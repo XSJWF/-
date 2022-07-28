@@ -1,0 +1,366 @@
+/*版心*/
+body{
+    background-color: #cbcbcb;
+}
+
+.w{
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.style_red{
+    color:#c81623;
+}
+.style_white{
+    margin-left: 50px;
+    color: aliceblue;
+}
+/*快捷导航模块*/
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: grey;
+}
+.shortcut ul li {
+    float: left;
+}
+
+/*header样式*/
+.header{
+    position: relative;
+    height: 180px;
+    background-color: white;
+}
+.logo{
+    position:absolute;
+    top:40px;
+    width:105px;
+    height:87px;
+    background-color: white;
+}
+.logo a{
+    display: block;
+    width: 105px;
+    text-align: center;
+    font-size: 25px;
+}
+.search{
+    position: absolute;
+    left: 350px;
+    top: 80px;
+    width: 540px;
+    height: 36px;
+    border: 2px solid dimgray;
+}
+.search input{
+    float: left;
+    width: 460px;
+    height: 36px;
+    padding-left: 10px;
+    outline: none;
+}
+.search button{
+    position: absolute;
+    left: 461px;
+    float: left;
+    width: 80px;
+    height: 38px;
+    background-color: dimgray;
+    font-size: 16px;
+    border-style: none;
+    color: white;
+}
+
+.search button:hover{
+    cursor: pointer;
+}
+
+.hot-words{
+    position: absolute;
+    top: 125px;
+    left: 350px;
+}
+.hot-words a{
+    margin: 0 8px;
+}
+/* CSS Document */
+nav{
+    position:absolute;
+    left:160px;
+    top:200px;
+    border:1px solid #b61d1d;
+}
+/*全部商品分类*/
+.all{
+    width:190px;
+    height:44px;
+    line-height:44px;
+    background:#b1191a;
+    padding:0 10px;
+}
+.all a{
+    color:white;
+    font-size:16px;
+
+}
+/*导航菜单*/
+.nav_item{
+
+    width:190px;
+    height:31px;
+    line-height:31px;
+    color:white;
+    background:#b61d1d;
+    padding:0 10px;
+}
+.nav_item a{
+    color: white;
+}
+
+.jt{
+    color:white;
+    float:right;
+    width:12px;
+    padding-top:10px;
+    font: 13px consolas;
+}
+/*hover*/
+
+ul li:hover a{
+    color:#b61d1d;
+}
+/*submenu*/
+.sub_menu{
+    display:none;
+    width:auto;
+    height: 555px;
+    position:absolute;
+    z-index: 999;
+    left:210px;
+    top:44px;
+    background:#f7f7f7;
+}
+ul li:hover .sub_menu{display:block;}
+.left-menu{
+    width: 550px;
+    overflow:hidden;
+    float:left;
+}
+.left-menu dl{
+    overflow:hidden;
+    display:block;
+    margin: 20px 0;
+
+}
+.left-menu dl dt{
+    float:left;
+    font-weight:bold;
+    color:#737373;
+    padding:0 8px;
+
+}
+
+.left-menu dl  dd  a{
+    color: #737373;
+    float:left;
+    height:20px;
+    line-height:20px;
+    padding:0 10px;
+    border-left: 1px solid #e0e0e0;
+    font-size:12px;
+    margin-top:5px;
+}
+.rightmenu{
+    float:right;
+}
+.rightmenu dl {
+    margin-top:20px;
+
+}
+.rightmenu dl dd {
+    padding:0;
+    margin-bottom:2px;
+}
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;/*margin设置元素外边距宽度*/
+    margin-top: 5px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: white;
+    border-top: 5px solid cadetblue;
+    /* 避免因窗口变化影响图片效果 */
+    margin: 0 auto;
+}
+.new-flash{
+    float: right;
+    width: 250px;
+    height: 600px;
+    background-color: white;
+
+}
+.news{
+    height: 365px;
+    border: 1px solid #e4e4e4;
+}
+.news_hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news_hd h5{
+    float: left;
+    font-size: 14px;
+}
+.news_hd .more{
+    float: right;
+}
+.news_bd{
+    padding: 5px 0 0;
+}
+.news_bd ul li{
+    height: 24px;
+    line-height: 24px;
+}
+.news_hd .more::after{
+    content: '>';
+}
+
+.bargain{
+    margin-top: 5px;/*margin设置元素外边距宽度*/
+}
+/*猜你喜欢*/
+.box_hd{
+    height: 100px;
+    border-bottom: 2px solid red;
+    margin-left: 100px;
+    margin-right: 400px;
+}
+.box_hd h3{
+    margin-top: 50px;
+    margin-left: 450px;
+    float: left;
+    font-size: 28px;
+    color: red;
+    font-weight: 400;
+}
+.commodity ul li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    background: white;
+    border-color: skyblue;
+}
+.price{
+    margin-top: 10px;
+    color: red;
+    font-family: "微软雅黑", serif;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+/* 设置轮播图盒子位置及大小 */
+
+.lunbotu{
+    width: 721px;
+    height: 600px;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+}
+
+/* 设置图片 */
+.box img {
+    position: absolute;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.box .img1 img {
+    opacity: 1;
+}
+
+/* 设置左按钮 */
+.leftBtn {
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    top:240px;
+    left: 0;
+    background-color: rgba(0,0,0, .3);
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 0 30% 30% 0;
+    display: none;
+}
+
+.leftBtn:hover {
+    background-color: rgba(0,0,0, .6);
+    cursor: pointer;
+}
+
+/* 设置右按钮 */
+.rightBtn {
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    left: 700px;
+    top:240px;
+    background-color: rgba(0,0,0, .3);
+    color:white;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 30% 0 0 30%;
+    display: none;
+}
+
+.rightBtn:hover {
+    background-color: rgba(0,0,0, .6);
+    cursor: pointer;
+}
+
+/* 下面用于跳转的小圆点  */
+.jump ul{
+    position: absolute;
+    top: 550px;
+    left: 580px;
+    width: 100px;
+    list-style: none;
+    height: 10px;
+    bottom: 10px;
+    right:220px;
+    float: left;
+}
+
+.jump li {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 100%;
+    float: left;
+    margin-right: 16px;
+}
+
+.jump li:first-child {
+    background-color: red;
+}
+

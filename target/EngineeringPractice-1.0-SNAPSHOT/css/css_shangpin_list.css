@@ -1,0 +1,125 @@
+body{
+    background-image: url("../img/ÍøÒ³±³¾°.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.w{
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.style_red{
+    color:#c81623;
+}
+.style_white{
+    color: aliceblue;
+}
+/*¿ì½Ýµ¼º½Ä£¿é*/
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: grey;
+}
+.shortcut ul li {
+    float: left;
+    top: -12px;
+    height: 20px;
+    width: 100px;
+    text-align: left;
+    background-color: transparent;
+}
+
+#list_main{
+    position: absolute;
+    width: 99%;
+    background-color: #d9d9d9;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    position: relative;
+    height:450px;
+    width:250px;
+    float:left;
+    margin-bottom: 20px;
+    margin-right:40px;
+    background-color: #c7c6c6;
+}
+
+.picture{
+    position: absolute;
+    height:250px;
+    width:250px;
+}
+
+.price{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    height:45px;
+    font-size:20px;
+    color:red;
+    text-align:left;
+    line-height:45px;
+}
+
+.jianjie{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    width:236px;
+    word-wrap:break-word;
+    font-size:14px;
+    color:black;
+}
+
+.shopcar{
+    position: absolute;
+    top: 385px;
+    left: 50px;
+    border: 1px solid #a2a2a2;
+    width: 150px;
+    height:30px;
+    font-weight: bold;
+    text-align:center;
+    line-height:30px;
+    color:red;
+}
+
+.picture,.shopcar,.jianjie:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+#sousuo:hover{
+    cursor: pointer;
+}
+
+#shouye{
+    position: absolute;
+    font-size: 24px;
+    left: 600px;
+    top: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #111111;
+}
+
+#shouye:hover{
+    cursor: pointer;
+    color: #c03232;
+}

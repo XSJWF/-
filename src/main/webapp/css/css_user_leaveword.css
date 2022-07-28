@@ -1,0 +1,119 @@
+body{
+    background: url("../img/网页背景.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+
+#leaveword_02_div {
+    position:absolute;
+    left:300px;
+    top:0;
+    width:1000px;
+    height:713px;
+    background-color: #bff3e8;
+    opacity: 0.5;
+}
+#leaveword_03_div{
+    position:absolute;
+    left:300px;
+    top:0;
+    width:1000px;
+    height:80px;
+    background-color: #1ABC9CFF;
+    opacity: 0.8;
+}
+
+#leaveword_03_div_titleImg{
+    position: relative;
+    left: 0;
+    width: 150px;
+    height: 75px;
+    top:2px;
+}
+
+#leaveword_03_div_title{
+    position: relative;
+    left: 120px;
+    top: -55px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+}
+
+#leaveword_03_div_background{
+    position: relative;
+    left: 5px;
+    top: -30px;
+    width: 990px;
+    height: 620px;
+    background-color: #c7c7c7;
+}
+
+#leaveword_03_div_background_title{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 980px;
+    height: 100px;
+    background-color: #e1e1e1;
+}
+
+#leaveword_03_div_background_titleVale{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+}
+
+#leaveword_03_div_background_titleText{
+    position: relative;
+    left: 30px;
+    top: 11px;
+    width: 550px;
+    height: 80px;
+    background-color: #efefef;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+}
+
+#leaveword_03_div_background_content{
+    position: relative;
+    left: 5px;
+    top: 15px;
+    width: 980px;
+    height: 500px;
+    background-color: #e1e1e1;
+}
+
+#leaveword_03_div_background_contentText{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 970px;
+    height: 420px;
+    background-color: #efefef;
+    border-radius: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#leaveword_submit{
+    position: absolute;
+    left: 460px;
+    top: 650px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+#leaveword_submit:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#leaveword_submit:active{
+    top: 651px;
+    opacity: 0.5;
+}

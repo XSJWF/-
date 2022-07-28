@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果</title>
+</head>
+<link rel="stylesheet" href="../../css/css_shangpin_list.css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../js/js_front_shangpin_list.js" charset="GB2312"></script>
+<body>
+<section class="shortcut">
+    <div class="w">
+        <div class="fr">
+            <a href="../orders.html" class="style_white">我的订单</a>&nbsp;&nbsp;<a href="../usercenter/user_shoppingcar.html" class="style_white">购物车</a>&nbsp;&nbsp;<a href="../usercenter/user_center.html" class="style_white">用户中心</a>
+        </div>
+    </div>
+</section>
+<!--快捷导航模块end-->
+<!--header(商标+搜索框及搜索框下面的热词)start-->
+<div style="width: 100%;background-color: #cbcbcb"><!--多类名方式，既有.header样式又有.w样式-->
+    <!--logo模块-->
+    <div class="logo" style="">
+        <h1>
+            <img style="left: 20px;top: 70px" src="../../img/商标.svg" alt="图片加载失败！">
+            <span style="position: absolute;top: 110px;left: 200px;font-size: 28px">优购网</span>
+        </h1>
+    </div>
+    <!--search搜索框-->
+    <div class="search" style="position:absolute;top: 60px;left: 700px;">
+        <input type="search" name="rc" id="sousuo_value" placeholder="2022新款" style="position: absolute;top: 40px;outline: none;width: 400px;height: 30px"><label id="sousuo" for="sousuo_value" style="top: 40px; display: flex;flex-direction: row;justify-content: center;align-items: center;height: 30px;position:absolute;left: 340px;width: 60px;background-color: #8a8a8a">搜索</label>
+    </div>
+    <!--热词（hot-words）制作-->
+    <div class="hot-words" style="position: absolute;left: 700px;top: 140px">
+        <a href="">小白鞋</a>
+        <a href="">高跟鞋</a>
+        <a href="">鞋盒</a>
+        <a href="">蓝牙耳机</a>
+        <a href="">夏季新款</a>
+        <a href="">2022新款</a>
+        <a href="">联想lp40</a>
+    </div>
+    <a id="shouye" href="Mall%20homepage.html">首页</a>
+</div>
+<div id="list_main">
+    <ul id="shangpin_list">
+
+    </ul>
+</div>
+</body>
+</html>

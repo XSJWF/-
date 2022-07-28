@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品类别列表</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../css/css_background.css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../js/js_commodity_category_list.js" charset="GB2312"></script>
+<body>
+<TABLE width="100%"  border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <TD height="30" colspan="3.25" class="tb_showall">一级分类表</TD>
+        <TD height="30" colspan="0.26" class="tb_showall"></TD>
+        <TD height="30" colspan="4.55" class="tb_showall">二级分类表</TD>
+        <TD height="30" colspan="0.26" class="tb_showall"></TD>
+        <TD height="30" colspan="4.68" class="tb_showall">三级分类表</TD>
+    </tr>
+    <TR class="td_header" style="height: 25px">
+        <TD width="10%">一级类别编号</TD>
+        <TD width="10%">一级类别名称</TD>
+        <TD width="5%"></TD>
+        <TD width="2%" style="background-color: #0078B7"></TD>
+        <TD WIDTH='10%'>一级类别编号</TD>
+        <TD WIDTH='10%'>二级类别编号</TD>
+        <TD width="10%">二级类别名称</TD>
+        <TD width="5%"></TD>
+        <TD width="2%" style="background-color: #0078B7"></TD>
+        <TD WIDTH='10%'>二级类别编号</TD>
+        <TD width="10%">三级类别编号</TD>
+        <TD width="10%">三级类别名称</TD>
+        <TD width="6%"></TD>
+    </TR>
+</TABLE>
+
+<TABLE width="100%" id="commodity_category_list">
+    <tr>
+        <TD width="25%" valign="top">
+            <TABLE id="commodity_category1_list" width='100% ' border='0' cellpadding='0' cellspacing='0'>
+
+            </TABLE>
+            <TABLE width="100%"  border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <TD width="60%"></TD>
+                    <TD width="40%">
+                        <a STYLE="color: #0078B7;font-weight: bold; position: relative;left: 20px;top: 10px" id="add_1">新增类别</a>
+                    </TD>
+                </tr>
+            </TABLE>
+            <TABLE id="category1">
+
+            </TABLE>
+        </TD>
+        <TD width="2%"></TD>
+        <TD width="35%" valign="top">
+            <TABLE id="commodity_category2_list" width='100% ' border='0' cellpadding='0' cellspacing='0'>
+
+            </TABLE>
+            <TABLE width="100%"  border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <TD width="70%"></TD>
+                    <TD width="30%">
+                        <a STYLE="color: #0078B7;font-weight: bold; position: relative;left: 20px;top: 10px" id="add_2">新增类别</a>
+                    </TD>
+                </tr>
+            </TABLE>
+        </TD>
+        <TD width="2%"></TD>
+        <TD width="36%" valign="top">
+            <TABLE id="commodity_category3_list" width='100% ' border='0' cellpadding='0' cellspacing='0'>
+
+            </TABLE>
+            <TABLE width="100%"  border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <TD width="70%"></TD>
+                    <TD width="30%">
+                        <a STYLE="color: #0078B7;font-weight: bold; position: relative;left: 20px;top: 10px" id="add_3">新增类别</a>
+                    </TD>
+                </tr>
+            </TABLE>
+        </TD>
+    </tr>
+</TABLE>
+
+<div id="category1_add" style="display: none;position: absolute;width: 500px;height: 140px;background:#4194c5;left: 360px;border-radius: 10px">
+    <table style="position:absolute;top: 30px;text-align: center;left: 70px">
+        <tr>
+            <td>
+                <label for="category1_add_typename">一级分类名：</label><input type="text" id="category1_add_typename" style="position: absolute; text-align: center;border-radius: 10px">
+            </td>
+        </tr>
+    </table>
+    <button id="category1_confirm_add" class="category_button" style="position: absolute;left: 240px;width: 80px;height: 40px;top: 80px;border-radius: 10px">确认新增</button>
+</div>
+
+<div id="category2_add" style="display: none;position: absolute;width: 500px;height: 220px;background:#4194c5;left: 360px;border-radius: 10px">
+    <div>
+        <label style="position: absolute;left: 40px;top: 40px" for="category2_add_typeid">所属一级分类编号：</label><input type="text" id="category2_add_typeid" style="text-align: center;position:absolute;left: 200px;top: 37px;width: 180px;border-radius: 10px">
+    </div>
+    <div>
+        <label style="position: absolute;left: 70px;top: 100px" for="category2_add_typename">二级分类名：</label><input type="text" id="category2_add_typename" style="text-align: center;position: absolute;top: 96px;left: 180px;border-radius: 10px">
+    </div>
+    <button id="category2_confirm_add" class="category_button" style="position: absolute;left: 240px;width: 80px;height: 40px;top: 160px;border-radius: 10px">确认新增</button>
+</div>
+
+<div id="category3_add" style="display: none;position: absolute;width: 500px;height: 220px;background:#4194c5;left: 360px;border-radius: 10px">
+    <div>
+        <label style="position: absolute;left: 40px;top: 40px" for="category3_add_typeid">所属二级分类编号：</label><input type="text" id="category3_add_typeid" style="text-align: center; position:absolute;left: 200px;top: 37px;width: 180px;border-radius: 10px">
+    </div>
+    <div>
+        <label style="position: absolute;left: 70px;top: 100px" for="category3_add_typename">三级分类名：</label><input type="text" id="category3_add_typename" style="text-align: center;position: absolute;top: 96px;left: 180px;border-radius: 10px">
+    </div>
+    <button id="category3_confirm_add" class="category_button" style="position: absolute;left: 240px;width: 80px;height: 40px;top: 160px;border-radius: 10px">确认新增</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="网上购物，网上商城，手机，笔记本，电脑/">
+    <title>商品详情</title>
+</head>
+<link rel="stylesheet" href="../../css/cssreset.css">
+<link rel="stylesheet" href="../../css/spxq.css">
+<link rel="stylesheet" href="../../css/pinglun.css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../js/js_front_shangpin_detail.js" charset="GB2312"></script>
+<body>
+<section class="shortcut">
+    <div class="w">
+        <div class="fl style_white">
+            <ul>
+                <li>优购欢迎您! &nbsp;&nbsp;</li>
+                <li id="nav_status">
+
+                </li>
+            </ul>
+        </div>
+        <div class="fr">
+            <a href="../orders.html" class="style_white">我的订单</a>&nbsp;&nbsp;<a href="../usercenter/user_shoppingcar.html" class="style_white">购物车</a>&nbsp;&nbsp;<a href="../usercenter/user_center.html" class="style_white">用户中心</a>
+        </div>
+    </div>
+</section>
+<!--快捷导航模块end-->
+<!--header(商标+搜索框及搜索框下面的热词)start-->
+<header class="header w"><!--多类名方式，既有.header样式又有.w样式-->
+    <!--logo模块-->
+    <div class="logo">
+        <h1>
+            <img src="../../img/商标.svg" alt="图片加载失败！">
+            <span style="position: absolute;top: 0;left: 180px;font-size: 28px">优购网</span>
+        </h1>
+    </div>
+    <!--search搜索框-->
+    <div class="search">
+        <label for="sousuo_value"></label><input type="search" name="rc" id="sousuo_value" placeholder="2022新款">
+        <button id="sousuo">搜索</button>
+    </div>
+    <!--热词（hot-words）制作-->
+    <div class="hot-words">
+        <a href="">小白鞋</a>
+        <a href="">高跟鞋</a>
+        <a href="">鞋盒</a>
+        <a href="">蓝牙耳机</a>
+        <a href="">夏季新款</a>
+        <a href="">2022新款</a>
+        <a href="">联想lp40</a>
+    </div>
+</header>
+<!--header(商标+搜索框及搜索框下面的热词)end-->
+<div class="link-top"></div>
+<!--商品详情栏start-->
+<div class="box" id="shangpin_main">
+
+</div>
+<!--商品详情栏end-->
+<!--商品评论start-->
+<div class="comment_area">
+    <div class="comment_head">
+        <ul>宝贝评价</ul>
+    </div>
+    <div class="test">
+        <div lang="en-US" class="gitment-container gitment-editor-container">
+            <div class="gitment-editor-main">
+                <div class="gitment-editor-header">
+                    <nav class="gitment-editor-tabs">
+                        <button class="gitment-editor-tab gitment-selected">评价晒单</button>
+                        <label for="comment_title"></label><input style="position: absolute;top:5px;text-align: center;width: 200px;left: 300px;height: 30px" id="comment_title" type="text" placeholder="请输入评论标题">
+                    </nav>
+                </div>
+                <div class="gitment-editor-body">
+                    <div class="gitment-editor-write-field">
+                        <textarea id="comment_content" placeholder="商品还满意吗？快写下你的评价，告诉其他网友吧！" title="Login to Comment"></textarea>
+                    </div>
+                    <div class="gitment-editor-preview-field gitment-hidden">
+                        <div class="gitment-editor-preview gitment-markdown"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="gitment-editor-footer">
+                <button id="pinglun" class="gitment-editor-submit" title="Login to Comment">评论</button>
+            </div>
+        </div>
+        <div lang="en-US" class="gitment-container gitment-comments-container">
+            <ul id="user_commentlist" class="gitment-comments-list">
+
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

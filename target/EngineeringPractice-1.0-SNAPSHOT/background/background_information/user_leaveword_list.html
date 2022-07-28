@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户留言列表</title>
+</head>
+<link rel="stylesheet" href="../../css/css_background.css">
+<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript " src="../../js/js_background_user_leaveword_list.js"></script>
+<body>
+<TABLE width="100%"  border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <TD height="30" colspan="5" class="tb_showall">
+            用户留言信息表
+        </TD>
+    </tr>
+    <TR class="td_header" style="height: 25px">
+        <TD width="15%">留言时间</TD>
+        <TD width="10%">留言主题</TD>
+        <TD width="15%">用户名</TD>
+        <TD WIDTH='50%'>留言内容</TD>
+        <TD width="10%">是否回复</TD>
+    </TR>
+</TABLE>
+<TABLE id="leaveword_list" width="100%"  border="0" cellpadding="0" cellspacing="0">
+
+</TABLE>
+<div id="leaveword_list_add" style="display: none">
+    <div id='leaveword_list_add_background'>
+        <label for='leaveword_list_add_title'></label>
+        <input id='leaveword_list_add_title' type='text' placeholder='请输入回复主题'>
+        <label for='leaveword_list_add_content'></label>
+        <textarea id='leaveword_list_add_content' placeholder='请输入回复内容'></textarea>
+        <button id='leaveword_list_add_confirm'>确认</button>
+        <button id='leaveword_list_add_cancel'>取消</button>
+    </div>
+</div>
+</body>
+</html>
